@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(39, 39, 39);
+}
+
+.cart-items {
+  display: flex;
+}
+
+.items {
+  list-style: none;
+  margin: 0 20px;
+  width: 200px;
+}
+
+.ty {
+  margin: auto;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.ty p {
+  font-size: 1.4em;
+}
+
+.ty a {
+  border-radius: 15px;
+  color: black;
+  font-size: 1.4em;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.ty a:hover {
+  background-color: black;
+  color: white;
+}
+
+.seta {
+  width: 200px;
+}
+
+.div-seta-check {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  left: 150px;
+  position: absolute;
+  top: 200px;
+}

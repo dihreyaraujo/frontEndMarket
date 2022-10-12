@@ -1,0 +1,29 @@
+.category-css {
+  display: flex;
+  flex-direction: column;
+  height: 720px;
+  margin: 20px 100px 0 10px;
+  min-width: 250px;
+  overflow-y: scroll;
+}
+
+.category {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.category:hover {
+  text-decoration: underline;
+}
+
+.category-css::-webkit-scrollbar {
+  width: 10px;
+}
+
+.category-css::-webkit-scrollbar-track-piece {
+  background-color: white;
+}
+
+.category-css::-webkit-scrollbar-thumb {
+  background-color: #0000009d;
+}

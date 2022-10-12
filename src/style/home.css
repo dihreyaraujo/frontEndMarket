@@ -1,0 +1,49 @@
+.home-css {
+  display: flex;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+.items-search {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.items-search button {
+  border: none;
+  color: rgb(130, 130, 130);
+  cursor: pointer;
+  font-size: 1.2em;
+  height: 40px;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.items-search button:hover {
+  background-color: black;
+  color: white;
+}
+
+.items-list {
+  border: 1px solid rgb(112, 112, 112);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  transition: 0.2s;
+  width: 240px;
+}
+
+.items-list:hover {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.316);
+}
+
+.product-info {
+  color: black;
+  text-decoration: none;
+}

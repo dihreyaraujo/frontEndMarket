@@ -1,0 +1,80 @@
+.main-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 180px;
+}
+
+.form button, .form p, .form input, .form textarea {
+  margin-bottom: 70px;
+}
+
+.form input {
+  font-size: 0.8em;
+  height: 30px;
+  padding: 5px;
+}
+
+.item-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5em;
+}
+
+.item-info > :nth-child( even ) {
+  margin-bottom: 70px;
+}
+
+.item-info > :nth-child( odd ) {
+  margin-bottom: 70px;
+}
+
+.item-info img {
+  width: 200px;
+}
+
+.item-info button, .form button {
+  border: none;
+  color: rgb(130, 130, 130);
+  cursor: pointer;
+  font-size: 1em;
+  height: 50px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.item-info button:hover, .form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.item-describe {
+  height: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6em;
+  height: 600px;
+  text-align: center;
+  width: 400px;
+}
+
+.form textarea {
+  font-size: 0.9em;
+  height: 100px;
+  resize: none;
+}
+
+.avaliation-radio {
+  display: flex;
+  justify-content: center;
+}
+
+.avaliation-radio label {
+  margin-left: 10px;
+  margin-right: 10px;
+}
